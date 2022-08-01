@@ -26,6 +26,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
         </dependency>
@@ -80,5 +84,23 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+    <build>
+        <resources>
+<!--            <resource>-->
+<!--                <directory>src/main/java</directory>-->
+<!--                <includes>-->
+<!--                    <include>**/*.xml</include>-->
+<!--                </includes>-->
+<!--            </resource>-->
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+
 
 </project>
