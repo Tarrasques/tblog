@@ -1,4 +1,4 @@
-package com.tblog.tlog.comfig;
+package com.tblog.tlog.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
