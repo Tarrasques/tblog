@@ -33,6 +33,7 @@
     <modules>
         <module>tlog</module>
         <module>eureka-server</module>
+        <module>rabbitMQ</module>
     </modules>
     <dependencyManagement>
         <dependencies>
